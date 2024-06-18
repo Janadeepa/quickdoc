@@ -1,32 +1,31 @@
-
-# QuickDoc
+# 📘 QuickDoc
 
 QuickDoc is a lightweight, command-line tool designed to simplify the generation of project documentation from code comments. It automates the tedious task of manually writing and updating documentation by extracting comments directly from source code files and formatting them into readable documentation files.
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 quickdoc/
 │
-├── docs/                   # Documentation templates and resources
-│   ├── templates/          # Template files (Markdown, HTML, etc.)
-│   └── assets/             # Assets like CSS, images, etc.
+├── 📄 docs/                   # Documentation templates and resources
+│   ├── 📁 templates/          # Template files (Markdown, HTML, etc.)
+│   └── 📁 assets/             # Assets like CSS, images, etc.
 │
-├── src/                    # Source code
-│   ├── cli.py              # Command-line interface
-│   ├── parser.py           # Code comment parsing logic
-│   ├── generator.py        # Documentation generation logic
-│   ├── server.py           # Live preview server
-│   ├── versioning.py       # Versioning and history management
-│   ├── integration.py      # Integration with source code repositories
-│   └── search.py           # Search functionality implementation
+├── 📁 src/                    # Source code
+│   ├── 📄 cli.py              # Command-line interface
+│   ├── 📄 parser.py           # Code comment parsing logic
+│   ├── 📄 generator.py        # Documentation generation logic
+│   ├── 📄 server.py           # Live preview server
+│   ├── 📄 versioning.py       # Versioning and history management
+│   ├── 📄 integration.py      # Integration with source code repositories
+│   └── 📄 search.py           # Search functionality implementation
 │
-├── tests/                  # Unit tests
+├── 📁 tests/                  # Unit tests
 │
-└── README.md               # Project documentation
+└── 📄 README.md               # Project documentation
 ```
 
-## Features
+## ✨ Features
 
 - **Markdown-based Documentation:** Developers write documentation using Markdown, ensuring easy formatting without the need for complex HTML or formatting tools.
 - **Command Line Interface (CLI):** Includes a CLI tool for initializing, generating, and updating documentation directly from the terminal, facilitating seamless integration into build scripts and CI pipelines.
@@ -37,7 +36,7 @@ quickdoc/
 - **Search Functionality:** Includes a search feature within generated documentation for quick information retrieval.
 - **Multi-language Support:** Offers localization capabilities for creating documentation in multiple languages, accommodating international users.
 
-## Usage
+## 🚀 Usage
 
 ### Installation
 
@@ -97,11 +96,10 @@ Implement search functionality within generated documentation using:
 python src/cli.py search
 ```
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests to contribute new features, improvements, or fixes.
 
-## License
+## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
-```
