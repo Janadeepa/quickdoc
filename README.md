@@ -11,14 +11,14 @@ quickdoc/
 │   ├── 📁 templates/          # Template files (Markdown, HTML, etc.)
 │   └── 📁 assets/             # Assets like CSS, images, etc.
 │
-├── 📁 src/                    # Source code
-│   ├── 📄 cli.py              # Command-line interface
-│   ├── 📄 parser.py           # Code comment parsing logic
-│   ├── 📄 generator.py        # Documentation generation logic
-│   ├── 📄 server.py           # Live preview server
-│   ├── 📄 versioning.py       # Versioning and history management
-│   ├── 📄 integration.py      # Integration with source code repositories
-│   └── 📄 search.py           # Search functionality implementation
+├── 📁 src/                 🎯   # Source code
+│   ├── 📄 cli.py           🎯   # Command-line interface
+│   ├── 📄 parser.py        🎯   # Code comment parsing logic
+│   ├── 📄 generator.py     🎯   # Documentation generation logic
+│   ├── 📄 server.py        🎯   # Live preview server
+│   ├── 📄 versioning.py    🎯   # Versioning and history management
+│   ├── 📄 integration.py   🎯   # Integration with source code repositories
+│   └── 📄 search.py        🎯   # Search functionality implementation
 │
 ├── 📁 tests/                  # Unit tests
 │
